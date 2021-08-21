@@ -1,6 +1,7 @@
 #include "stdio.h"
+#include "pay_amount.c"
 int main(void){
-    void pay_amount (int dollars, int *twenties, int *tens, int *fives, int *ones);
+    
     int dollars, twenties, tens, fives, ones;
     printf("Enter a dollar amount: ");
     scanf("%d", &dollars);
@@ -14,12 +15,4 @@ int main(void){
 
     return 0;
 }
-void pay_amount (int dollars, int *twenties, int *tens, int *fives, int *ones){ 
-    *twenties = dollars / 20;
-    dollars = dollars % 20;
-    *tens = dollars / 10;
-    dollars = dollars % 10;
-    *fives = dollars / 5;
-    dollars = dollars % 5;
-    *ones = dollars / 1;
-}
+ 
