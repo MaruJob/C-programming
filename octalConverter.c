@@ -8,7 +8,7 @@ int main(){
     scanf("%d", &decNum);
     int rem1 = decNum%8;//Here rem1 stands for the first remainder we get after the original decimal is divided by 8
     int quo1 = decNum/8;//Simlarly, quo1 is the quotient gotten when the original decimal is divided by 8
-    //We will be using similar vsriables below
+    //We will be using similar variables below
 
     int rem2 = quo1%8;
     int quo2 = quo1/8;
