@@ -3,7 +3,7 @@
 //MaruJob
 #include "stdio.h"
 int main(){
-    int decNum, octNUm;
+    int decNum;
     printf("Enter a number between 0 and 32767: ");
     scanf("%d", &decNum);
     int rem1 = decNum%8;//Here rem1 stands for the first remainder we get after the original decimal is divided by 8
