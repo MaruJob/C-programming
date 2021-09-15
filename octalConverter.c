@@ -23,4 +23,4 @@ int main(){
      printf("In octal your number is %d%d%d%d%d\n", rem5, rem4, rem3, rem2, rem1);
     return 0;
 }
-//I actually enjoyed the logic I applied before getting to the end. But I believe it'll have been shorter if loops were involved.
+ 
